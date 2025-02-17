@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 const HomeSection = () => {
   return (
-    <div className='bg-lightBlack px-10 py-5 min-h-screen' >
-        <div className="md:flex items-center justify-center gap-10 w-full h-full">
+    <div className='bg-lightBlack px-20 pt-10 min-h-screen' >
+        <div className="md:flex items-center justify-between w-full h-full">
         {/* Left Section - Text Animation */}
         <motion.div
             className=""

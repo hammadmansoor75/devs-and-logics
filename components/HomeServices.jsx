@@ -3,12 +3,12 @@ import SingleService from './SingleService';
 
 const HomeServices = () => {
   return (
-    <section className='w-full px-5 py-10 md:px-10 bg-white'>
-        <h2 className="text-2xl font-bold text-sky-900 text-center">OUR SERVICES</h2>
-        <h1 className='text-3xl md:text-5xl font-bold mt-3 text-center'>
+    <section className='w-full px-5 py-20 md:px-10 bg-neutral-100'>
+        <h2 className="text-2xl font-bold text-black text-center">OUR SERVICES</h2>
+        <h1 className='text-3xl md:text-5xl font-bold text-sky-900 mt-5 text-center'>
           High Impact Services For Your Business
         </h1>
-        <div className='flex items-center justify-center flex-wrap gap-10 mt-10'>
+        <div className='flex items-center justify-center flex-wrap gap-10 mt-14'>
             <SingleService 
               icon='/assets/software-service.svg' 
               name='Custom Software Development' 

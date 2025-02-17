@@ -11,10 +11,6 @@ const links = [
         label: 'Home'
     },
     {
-        href: '/about',
-        label: 'About'
-    },
-    {
         href: '/portfolio',
         label: 'Portfolio'
     }
@@ -28,7 +24,7 @@ const Navbar = () => {
 
   return (
     <header className='w-full bg-lightBlack shadow-md sticky top-0 left-0 z-10' >
-        <div className='container mx-auto px-4 py-2' >
+        <div className='container mx-auto px-20 py-2' >
             <div className='flex items-center justify-between h-16' >
                 <div>
                     <Link href='/' className='text-2xl font-bold text-white' >Devs&Logics</Link>

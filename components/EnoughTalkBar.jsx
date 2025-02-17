@@ -83,7 +83,7 @@ const EnoughTalkBar = () => {
             visible: { opacity: 1, scale: 1, transition: { delay: 0.3 } },
           }}
         >
-          <Link href='' className='bg-black text-white font-medium text-md px-6 py-4 rounded-full hover:bg-white hover:text-black'>GET STARTED NOW</Link>
+          <Link href='' className='bg-black text-white font-medium text-md px-6 py-4 rounded-full hover:bg-white hover:text-black hover:border hover:border-black '>GET STARTED NOW</Link>
         </motion.div>
       </motion.div>
     </motion.div>
